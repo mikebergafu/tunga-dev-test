@@ -8,4 +8,5 @@ $composer install
 $php artisan serve
 To run background file importer service
 #####
-$php artisan import:file
+$ php artisan import:file
+$ php artisan queue:work
