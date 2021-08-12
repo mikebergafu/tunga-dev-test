@@ -1,4 +1,11 @@
+
+
 To Run this APP
-### php artisan serve
+### copy .env.example to .env
+###
+$composer install
+#####
+$php artisan serve
 To run background file importer service
-### php artisan import:file
+#####
+$php artisan import:file
